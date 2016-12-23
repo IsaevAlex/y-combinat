@@ -77,7 +77,6 @@
 
     .col-12-icons-list img{
         width: 50px;
-        padding-bottom: 20px;
     }
     
     #seven-section-item-2 {
@@ -141,12 +140,9 @@
   }
 
   .col-12-icons-list{
-     margin-top: 50px;
+     margin-top: 20px;
   }
 
-  .col-12-icons-lis span{
-     padding-bottom: 20px;
-  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
