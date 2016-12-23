@@ -68,7 +68,7 @@ ul.topnav li.icon {display: none;}
 #first-section{
   height: 800px;
   padding-top: 300px;
-  background: url(../img/first-section5.png) no-repeat center;
+  background: url(../img/first-section5-min.png) no-repeat center;
   width: 100%;
 }
 
@@ -160,7 +160,7 @@ ul.topnav li.icon {display: none;}
 
  #third-section{
     height: 800px;
-    background: url(../img/third-section.png) no-repeat center;
+    background: url(../img/third-section-min.png) no-repeat center;
     width: 100%;
  }
 
@@ -209,7 +209,7 @@ ul.topnav li.icon {display: none;}
 
 #fourth-section-1-2{
    height: 400px;
-   background: #008bb8;
+   background: url(../img/fourth-section-2-1.png) no-repeat center -180px;
    text-align: center;
 }
 
@@ -234,7 +234,7 @@ ul.topnav li.icon {display: none;}
 
 #fifth-section{
     height: 800px;
-    background: url(../img/fifth-section.png) no-repeat center;
+    background: url(../img/fifth-section-min.png) no-repeat center;
     width: 100%;
 }
 
@@ -332,9 +332,31 @@ ul.topnav li.icon {display: none;}
 }
 
 #seven-section-item-2 img{
-      display: block;
-      margin: 0 auto; 
+   display: block;
+   margin: 0 auto; 
 }
+
+#fourth-section-1-1:hover,#fourth-section-2-1:hover,#fourth-section-2-2:hover,#fourth-section-1-2:hover{
+    background: #008bb8;
+  -webkit-transition:  0.3s ease,opacity 0.3s ease;
+  -moz-transition:  0.3s ease,opacity 0.3s ease;
+  -ms-transition:  0.3s ease,opacity 0.3s ease;
+  transition:  0.3s ease,opacity 0.3s ease;
+}
+
+#fourth-section-1-1:hover p,#fourth-section-2-1:hover p,#fourth-section-2-2:hover p,#fourth-section-1-2:hover p{
+    display: block;
+}
+
+#fourth-section-1-1 p, #fourth-section-2-1 p, #fourth-section-2-2 p, #fourth-section-1-2 p{ 
+   font-size: 30px;
+   text-align: center;
+   color: #ffffff;
+   margin-top: 40%;
+   display: none;
+}
+
+
 
 footer {
   color: white;
