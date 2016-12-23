@@ -4,6 +4,10 @@
     src: url(../fonts/Proxima Nova Regular.otf); /* Путь к файлу со шрифтом */
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body{
   margin: 0;
   padding: 0;
