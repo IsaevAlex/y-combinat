@@ -1,0 +1,397 @@
+/* Main */
+@font-face {
+    font-family: Proxima Nova; /* Имя шрифта */
+    src: url(../fonts/Proxima Nova Regular.otf); /* Путь к файлу со шрифтом */
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x:hidden;
+}
+
+.row{
+   margin: 0;
+   padding: 0;
+}
+
+header{
+   padding: 20px 0;
+   position: absolute;
+   top: 30px;
+   left: 0;
+   right: 0;
+   width: 100%;
+}
+
+header img{
+  float: left;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font: 17px Proxima Nova, sans-serif;
+
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.glyphicon-menu-hamburger{
+   color: #fff;
+}
+
+#first-section{
+  height: 800px;
+  padding-top: 300px;
+  background: url(../img/first-section5.png) no-repeat center;
+  width: 100%;
+}
+
+#first-section h1{
+   font-size: 60px;
+   margin-bottom: 93.3px;
+   color: #fff;
+   line-height: 1.0;
+   text-transform: uppercase;
+}
+
+.home-btn{
+   border: 2px red solid;
+   padding: 15px 50px;
+   border-radius: 35px;
+   display: inline-block;
+   color: red;
+   outline: none;
+   text-decoration: none;
+   font-size: 30px;
+   text-align: center;
+   background-color:transparent;
+   font-family: Proxima Nova;
+ }
+
+ a .home-btn:hover{
+   color: #fff;
+   background-color: red;
+ }
+
+ a #btn-white:hover{
+   color: red;
+   background-color: white;
+ }
+
+.col-6-text h2{
+   font-size: 50px;
+   margin-bottom: 30px;
+   margin-top: 200px;
+   color: #fff;
+   line-height: 1.4;
+   text-transform: uppercase;
+   display: inline-block;
+}
+
+.col-6-text p{
+   color: #fff;
+   font-size: 35px;
+   margin-bottom: 50px;
+
+}
+
+#second-section-item-1{
+   height: 800px;
+   background: url(../img/second-section-1.png);
+   padding-left: 30px;
+}
+
+ #second-section-item-2{
+    height: 800px;
+    color: #fff;
+}
+
+.second-section-list{
+   padding-top: 30px;
+}
+
+.second-section-list h3{
+   display: inline-block;
+   float: left;
+   padding-left: 60px; 
+
+}
+
+.second-section-list span{
+   display: inline-block;
+   padding-top: 25px;
+}
+
+
+.second-section-list:nth-child(2n){
+  background-color: #171C28;
+  height: 133.3px
+}
+
+.second-section-list:nth-child(2n+1){
+  background-color: #0A0A13; 
+  height: 133.3px;
+}
+
+ #third-section{
+    height: 800px;
+    background: url(../img/third-section.png) no-repeat center;
+    width: 100%;
+ }
+
+.third-section-item{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.col-12-text h2{
+   font: 50px Proxima Nova, sans-serif;
+   margin-bottom: 30px;
+   margin-top: 150px;
+   color: #fff;
+   line-height: 1.0;
+   text-transform: uppercase;
+}
+
+.col-12-text p{
+   color: #fff;
+   font: 35px Proxima Nova, sans-serif;
+}
+
+.col-12-icons-list{
+   margin-top: 130px;
+}
+
+.col-12-icons-list span{
+   font:  Proxima Nova, sans-serif;
+   color: #fff;
+   text-align: center;
+   font-family: Proxima Nova;
+}
+
+#fourth-section-item-1{
+   height: 800px;
+   background: #008bb8;
+}
+
+#fourth-section-item-1 .home-btn{
+   color: #fff;
+   border: 2px #fff solid;
+}
+
+#fourth-section-1-1{
+   height: 400px;
+   background: url(../img/fourth-section-1-1.png) no-repeat center -235px;
+}
+
+#fourth-section-1-2{
+   height: 400px;
+   background: #008bb8;
+   text-align: center;
+}
+
+#fourth-section-1-2 p{
+   font-size: 30px;
+   text-align: center;
+   color: #ffffff;
+   margin-top: 40%;
+}
+
+#fourth-section-2-1{
+   height: 400px;
+   background: url(../img/fourth-section-2-1.png) no-repeat -245px center;
+  
+}
+
+#fourth-section-2-2{
+   height: 400px;
+   background: url(../img/fourth-section-2-2.png) no-repeat -400px center;
+   
+}
+
+#fifth-section{
+    height: 800px;
+    background: url(../img/fifth-section.png) no-repeat center;
+    width: 100%;
+}
+
+/* carousel */
+#sixth-section{
+   background: #0a0a13;
+}
+
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.col-sm-9 p{
+   color: #fff;
+   margin-top: 30px; 
+   font-size: 20px;
+}
+
+.col-sm-9 small{
+   color: #fff;
+   font-size: 15px;
+}
+
+#seven-section-item-1{
+   height: 800px;
+   background: url(../img/seven-section.png) no-repeat -100px;
+ }
+
+#seven-section-item-2{
+   background: #008bb8;
+   height: 800px;
+   padding-top: 100px;
+   text-align: center;
+}
+
+#seven-section-item-2 img{
+      display: block;
+      margin: 0 auto; 
+}
+
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+  font-family: Proxima Nova, sans-serif;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #0a0a13;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #171c28;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+

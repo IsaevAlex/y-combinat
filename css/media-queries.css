@@ -1,0 +1,186 @@
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #first-section h1{
+        margin-top: 70px; 
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    
+    #first-section .home-btn{
+        margin-left: 30px;
+    }
+
+
+     #second-section-item-1{
+        background-position: -350px center;
+        height: 800px;
+        width: 100%;
+     }
+
+     
+    
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #fourth-section-item-1{
+    	padding-left: 30px;
+    }
+
+    #second-section-item-1{
+    	padding-left: 30px;
+    }
+
+    #fourth-section-1-1{
+        height: 400px;
+        background-position: center -210px;
+    }
+
+    .col-12-icons-list img{
+        width: 50px;
+        padding-bottom: 20px;
+    }
+    
+    #seven-section-item-2 {
+        height: 600px;
+    }
+
+    #sixth-section-item-1{
+        height: 100px;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 600px){
+	#fourth-section-item-1{
+    	padding-left: 150px;
+    }
+
+}
+
+@media (min-width: 700px) {
+    #second-section-item-1{
+        background-position: -350px center;
+        height: 800px;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 1000px) {
+  ul.topnav li {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  header img {
+     width: 50%;
+     float: left;
+     padding-left: 30px;
+  }
+  .row-centered{
+        text-align: center;
+  }
+
+  .col-12-text h2{
+     margin-top: 50px;
+  }
+
+  .third-section-item{
+     margin-top: 50px;
+  }
+
+  .col-12-icons-list img{
+     width: 50px;
+     display: inline-block;
+     padding-bottom: 20px;
+  }
+
+  .col-12-icons-list{
+     margin-top: 50px;
+  }
+
+  .col-12-icons-lis span{
+     padding-bottom: 20px;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width: 1000px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .home-btn{
+    padding: 15px 20px;
+  }
+
+  .home-btn{
+    font-size: 25px;
+  }
+  .col-12-text p{
+        font: 30px Arial, sans-serif;
+  }
+  .col-12-text h2{
+        font: 40px Arial, sans-serif;
+  }
+  .col-6-text p{
+        font: 30px Arial, sans-serif;
+  }
+
+  .col-6-text h2{
+        font: 40px Arial, sans-serif;
+        margin-top: 100px;
+   }
+
+   
+
+}
