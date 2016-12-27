@@ -39,12 +39,6 @@
     #first-section h1{
         font-size: 45px;
     }
-    
-    #second-section-item-1{
-        background-position: -350px center;
-        height: 550px;
-        width: 100%;
-     }
 
      #fourth-section-1-2 p{
         font-size: 25px;
@@ -58,6 +52,30 @@
         height: 550px;  
      }
     
+}
+
+@media screen and (min-width: 1500px){
+  #seven-section-item-1{
+     background-size: 332% 120%; 
+     background-position: center; 
+  }
+  
+  #fourth-section-1-1{
+     background-size: 350% 380%;
+  }
+
+  #fourth-section-1-2{
+     background-size: 270% 200%;
+  }
+
+  #fourth-section-2-1{
+     background-size: 270% 200%;
+  }
+
+  #fourth-section-2-2{
+     background-size: 220% 200%;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -97,16 +115,6 @@
       padding-left: 150px;
     }
 
-}
-
-@media (min-width: 700px) {
-    #second-section-item-1{
-        background-position: -350px center;
-        height: 800px;
-        width: 50%;
-        display: inline-block;
-        float: left;
-    }
 }
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */

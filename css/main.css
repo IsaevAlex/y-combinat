@@ -69,7 +69,7 @@ ul.topnav li.icon {display: none;}
   height: 800px;
   padding-top: 300px;
   background: url(../img/first-section5-min.png) no-repeat center;
-  width: 100%;
+  background-size: 150% 120%;
 }
 
 #first-section h1{
@@ -117,18 +117,20 @@ ul.topnav li.icon {display: none;}
    color: #fff;
    font-size: 35px;
    margin-bottom: 50px;
-
 }
 
-#second-section-item-1{
+#second-section-item-1 {
    height: 800px;
-   background: url(../img/second-section-1.png);
+   background: url(../img/second-section-1.png) no-repeat center;
    padding-left: 30px;
+   background-size: 290% 120%; 
+   
 }
 
- #second-section-item-2{
+#second-section-item-2{
     height: 800px;
     color: #fff;
+    float: right;
 }
 
 .second-section-list{
@@ -162,6 +164,7 @@ ul.topnav li.icon {display: none;}
     height: 800px;
     background: url(../img/third-section-min.png) no-repeat center;
     width: 100%;
+    background-size: 150% 120%;
  }
 
 .third-section-item{
@@ -205,12 +208,13 @@ ul.topnav li.icon {display: none;}
 #fourth-section-1-1{
    height: 400px;
    background: url(../img/fourth-section-1-1.png) no-repeat center -235px;
+   
 }
 
 #fourth-section-1-2{
    height: 400px;
    background: url(../img/fourth-section-2-1.png) no-repeat center -180px;
-   text-align: center;
+  
 }
 
 #fourth-section-1-2 p{
@@ -229,7 +233,6 @@ ul.topnav li.icon {display: none;}
 #fourth-section-2-2{
    height: 400px;
    background: url(../img/fourth-section-2-2.png) no-repeat -400px center;
-   
 }
 
 #fifth-section{
@@ -322,7 +325,7 @@ ul.topnav li.icon {display: none;}
 #seven-section-item-1{
    height: 800px;
    background: url(../img/seven-section.png) no-repeat -100px;
- }
+}
 
 #seven-section-item-2{
    background: #008bb8;
