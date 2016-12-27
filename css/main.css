@@ -96,11 +96,13 @@ ul.topnav li.icon {display: none;}
  a .home-btn:hover{
    color: #fff;
    background-color: red;
+   cursor: pointer;
  }
 
  a #btn-white:hover{
    color: red;
    background-color: white;
+   cursor: pointer;
  }
 
 .col-6-text h2{
